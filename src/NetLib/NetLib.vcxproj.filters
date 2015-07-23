@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{0f1b7780-8391-4960-9c03-a412d4ea7007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{3906aa4e-3d44-41b5-ad80-c1c707610c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{ef6df74c-f16a-4864-abd2-806db57a17d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Compress">
+      <UniqueIdentifier>{aeb875e0-602a-43ff-bf72-792315a2d301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Crypt">
+      <UniqueIdentifier>{f352cb4b-ecfd-4c27-9f03-b26551e9f061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Crypt\SEED">
+      <UniqueIdentifier>{8e0def39-9299-45dd-851a-db52e1aed1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Crypt\Simple">
+      <UniqueIdentifier>{68336d6f-909b-417b-9dc2-45b819a2577b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Dump">
+      <UniqueIdentifier>{dc0d20fb-8a0c-4610-bb96-3fa9157b58f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Log">
+      <UniqueIdentifier>{57849bbb-5c69-4e5e-9786-854b531c12f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Service">
+      <UniqueIdentifier>{04b480c6-7ed9-4475-9cfe-fca50587f926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Random">
+      <UniqueIdentifier>{b153385b-b741-4298-b005-d02bec3a56fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\ODBC">
+      <UniqueIdentifier>{5a47a4c6-7dd3-4be6-ae72-76c1759f0ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\MemoryPool">
+      <UniqueIdentifier>{8672fdad-2361-4d16-bccc-c6d6e61ab3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Common">
+      <UniqueIdentifier>{6c04a0d8-cf6c-4d08-8296-78d9ad0cdaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Client">
+      <UniqueIdentifier>{c030bab8-4264-4051-aaa0-e8fc10a20c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Server">
+      <UniqueIdentifier>{3afbb07b-176a-467f-af5b-746a298844d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Lock">
+      <UniqueIdentifier>{f2a767f3-1ed5-4f3c-a908-b6f07b4e59cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ElapsedProfile">
+      <UniqueIdentifier>{c5d9bbd0-1266-4adb-ba8c-5e7fbd91e846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Utility\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunc.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>Utility\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt.h">
+      <Filter>Utility\Crypt\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGen.h">
+      <Filter>Utility\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedCrypt.h">
+      <Filter>Utility\Crypt\SEED</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ODBC.h">
+      <Filter>Database\ODBC</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>Database\ODBC</Filter>
+    </ClInclude>
+    <ClInclude Include="ODBCUtil.h">
+      <Filter>Database\ODBC</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceInstaller.h">
+      <Filter>Utility\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceBase.h">
+      <Filter>Utility\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="tbbAllocator.h">
+      <Filter>Utility\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpServer.h">
+      <Filter>Network\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNetwork.h">
+      <Filter>Network\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Utility\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="mpsc.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ElapsedProfile.h">
+      <Filter>Utility\ElapsedProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Utility\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Dump.cpp">
+      <Filter>Utility\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt.cpp">
+      <Filter>Utility\Crypt\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGen.cpp">
+      <Filter>Utility\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="SeedCrypt.cpp">
+      <Filter>Utility\Crypt\SEED</Filter>
+    </ClCompile>
+    <ClCompile Include="ODBC.cpp">
+      <Filter>Database\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Database\ODBC</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceInstaller.cpp">
+      <Filter>Utility\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceBase.cpp">
+      <Filter>Utility\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpServer.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNetwork.cpp">
+      <Filter>Network\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>Utility\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="ElapsedProfile.cpp">
+      <Filter>Utility\ElapsedProfile</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

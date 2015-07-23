@@ -1,0 +1,28 @@
+========================================================================
+    추가 개발 및 수정 항목
+========================================================================
+
+1. 암호화 AES, DES, RSA, SEED
+2. 라이브러리화(Release, Debug 모드, MD, MT..)
+3. 메모리 풀 제작
+4. 패킷스트림 제작(Custom 제작 가능하도록..)
+5. 클라이언트풀 사용량 증가시 소켓 추가 생성 시 AcceptEx 연결 or 추가분에 대한 Listen Queue 대기상황 해제
+6. 서비스 모드
+7. 덤프 파일
+8. Regstry, INI 파일 사용 기능
+9. 패킷 압축
+10. DATABASE 연결, 사용
+11. PacketGenerator
+12. 접속용 Session, 서버용 Session 구분해서 개발
+13. Performance monitor, Profiler
+14. IOCP UDP 구현
+15. Reliable UDP
+16. UDP Hole Punching
+17. Dead Reckoning
+18. Navigation Mesh
+19. Keep Alive
+20. Simless
+
+
+
+release 버전 sleep(1), sleep(10) queuing 속도 테스트
